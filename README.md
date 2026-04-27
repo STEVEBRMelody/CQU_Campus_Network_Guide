@@ -38,6 +38,10 @@
 
 **Step3.启用小米路由器的双wan功能**  
 登陆小米路由器后台,在高级设置>网口自定义中打开双Wan设置,并且指定所需要的两个Wan口 ***必须包含第一步中的那一个接口,另一个随意***  
+<div align="center">
+  <img src="pic/multi_wan_setting.png" width="85%">
+</div>
+<br>
 
 **Step4.接入并登陆第二路校园网**  
 接入第三步中指定的另一个Wan口至交换机,并且拔掉步骤一中的网线  
@@ -47,6 +51,10 @@
 **Step5.双Wan配置**  
 如果您使用的是同一个账号,则可以忽略此步,默认的1:1负载均衡没有任何问题  
 如果使用的是不同账号,有不同的限速,则需要在*WAN1口/WAN2口转发比例设置*中配置两个账号的限速值
+<div align="center">
+  <img src="pic/wan_portspeed_setting.png" width="85%">
+</div>
+<br>
 
 **Step6.验证效果**  
 使用多线程下载或测速验证最终效果,例如Steam,BT,PT,Speedtest等
