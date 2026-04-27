@@ -47,6 +47,10 @@
 接入第三步中指定的另一个Wan口至交换机,并且拔掉步骤一中的网线  
 打开校园网[登陆](login.cqu.edu.cn)页面,输入你的账号密码登录  
 登陆成功后,将两个Wan口都接入
+<div align="center">
+  <img src="pic/wan_information.png" width="85%">
+</div>
+<br>
 
 **Step5.双Wan配置**  
 如果您使用的是同一个账号,则可以忽略此步,默认的1:1负载均衡没有任何问题  
@@ -58,5 +62,10 @@
 
 **Step6.验证效果**  
 使用多线程下载或测速验证最终效果,例如Steam,BT,PT,Speedtest等
+<div align="center">
+  <img src="pic/speedtest_result.png" width="45%">
+</div>
+<br>
+
 > [!IMPORTANT]
 > 通常而言只有下行速度能够叠加,上行有很大概率无法叠加
