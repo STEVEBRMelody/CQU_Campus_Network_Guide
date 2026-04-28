@@ -69,3 +69,29 @@
 
 > [!IMPORTANT]
 > 通常而言只有下行速度能够叠加,上行有很大概率无法叠加
+
+---
+### 3️⃣使用交换机+代理核心LoadBalance实现（高阶 最推荐）
+不论是使用mwan3还是小米路由器双wan（其本质也是mwan3），均是基于iptables的产物  
+如果想要在路由器上使用Tproxy透明代理 则会发生冲突 只能二选一  
+最好的方法是直接抛弃mwan3 而改用代理核心的LoadBalance模块进行处理
+> [!TIP]
+> 如果你的路由器还没有部署透明代理 请[参考](https://github.com/STEVEBRMelody/MiRouter-Singbox)我的另一份教程
+
+> [!IMPORTANT]
+> 原版Singbox仍未支持LoadBalance 以下均采用[SingboxR](https://github.com/reF1nd/sing-box-releases)核心演示  
+> 你需要完成 2️⃣使用交换机+小米路由器的全Web简易配置 中的所有步骤 再进行以下的配置
+
+**Step1.获取网卡名称**  
+连接路由器SSH
+```
+ip a
+```
+寻找Wan口物理网卡名称并记录
+
+**Step2.Singbox配置文件修改**  
+1.Direct outbound配置  
+
+2.LoadBalance outbound配置  
+
+3.路由规则配置  
