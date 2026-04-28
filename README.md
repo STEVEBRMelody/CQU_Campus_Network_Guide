@@ -8,7 +8,7 @@
 </p>
 
 ## 📚 目录
-- [1.如何实现多拨叠加网速](https://github.com/STEVEBRMelody/CQU_Campus_Network_Guide/blob/main/README.md#-%E7%9B%AE%E5%BD%95)  
+- [1.如何实现多拨叠加网速](https://github.com/STEVEBRMelody/CQU_Campus_Network_Guide#1%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E5%A4%9A%E6%8B%A8%E5%8F%A0%E5%8A%A0%E7%BD%91%E9%80%9F)
   - [1️⃣纯软件实现方法](#1️⃣纯软件实现方法)
   - [2️⃣使用交换机+小米路由器的全Web简易配置](https://github.com/STEVEBRMelody/CQU_Campus_Network_Guide#2%EF%B8%8F%E2%83%A3%E4%BD%BF%E7%94%A8%E4%BA%A4%E6%8D%A2%E6%9C%BA%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A8%E7%9A%84%E5%85%A8web%E7%AE%80%E6%98%93%E9%85%8D%E7%BD%AE)
   - [3️⃣使用交换机+代理核心LoadBalance实现](https://github.com/STEVEBRMelody/CQU_Campus_Network_Guide#3%EF%B8%8F%E2%83%A3%E4%BD%BF%E7%94%A8%E4%BA%A4%E6%8D%A2%E6%9C%BA%E4%BB%A3%E7%90%86%E6%A0%B8%E5%BF%83loadbalance%E5%AE%9E%E7%8E%B0)
