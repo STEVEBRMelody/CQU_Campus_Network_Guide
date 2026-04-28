@@ -123,3 +123,16 @@ ip a
 ```
 
 3.路由规则配置  
+```
+{
+  "type": "shadowsocks",
+  "tag": "ss-out",
+
+  "server": "127.0.0.1",
+  "server_port": 1080,
+  "method": "2022-blake3-aes-128-gcm",
+  "password": "8JCsPssfgS8tiRwiMlhARg=="
+
+  "detour": "balance"
+}
+```
