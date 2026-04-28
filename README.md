@@ -92,6 +92,19 @@ ip a
 **Step2.Singbox配置文件修改**  
 1.Direct outbound配置  
 
+```
+{
+  "type": "direct",
+  "tag": "direct0",
+  "bind_interface": "eth0"
+},
+{
+  "type": "direct",
+  "tag": "direct1",
+  "bind_interface": "eth1"
+}
+```
+
 2.LoadBalance outbound配置  
 
 3.路由规则配置  
