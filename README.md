@@ -106,5 +106,20 @@ ip a
 ```
 
 2.LoadBalance outbound配置  
+```
+{
+  "type": "loadbalance",
+  "tag": "balance",
+  "strategy": "round-robin",
+
+  "outbounds": [
+    "direct0",
+    "direct1"
+  ],
+  "url": "http://captive.apple.com",
+  "interval": "5s",
+  "interrupt_exist_connections": true
+}
+```
 
 3.路由规则配置  
